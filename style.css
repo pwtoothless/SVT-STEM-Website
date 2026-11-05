@@ -1,15 +1,37 @@
 body {
-  background-color: #fdfffc;
+  background-color: #ffffff;
+}
+
+header
+{
+  background-color:#ffffff;
+  height:50px;
+  width:495px;
+  padding-left:5px;
+  position:absolute;
+  left:0;
+  top:0;
+  margin-left:5px;
+  margin-top:5px;
+}
+
+header > h1
+{
+  margin:0;
+  background-color:#ffffff;
 }
 
 nav {
   background-color: #333;
   overflow: hidden;
+  height:50px;
   border-radius: 50px;
   max-width: 273px;
   opacity: 0.92;
-  position: fixed;
   padding-right: 40px;
+  margin:0;
+  position:fixed;
+  right:2;
 }
 
 nav li {
@@ -35,4 +57,17 @@ nav li a:focus {
   outline: 3px solid #2cc088;
   outline-offset: 2px;
   border-radius: 10px;
+}
+
+main
+{
+  background-color: #ffffff;
+  position:absolute;
+  left:0;
+  margin-top:55px;
+  margin-left:5px;
+  width:500px;
+  height:520px;
+  padding-left:5px;
+  border: solid, 1px, black;
 }
