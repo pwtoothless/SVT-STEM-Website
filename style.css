@@ -1,12 +1,13 @@
 body {
   background-color: #ffffff;
+  overflow-x: hidden;
 }
 
 header
 {
   background-color:#ffffff;
-  height:50px;
-  width:495px;
+  height: 50px;
+  width: auto;
   padding-left:5px;
   position:absolute;
   left:0;
@@ -21,26 +22,39 @@ header > h1
   background-color:#ffffff;
 }
 
+header img 
+{
+  width: 20px;
+  height:20px;
+}
+
 nav {
   background-color: #333;
   overflow: hidden;
   height:50px;
   border-radius: 50px;
-  max-width: 273px;
   opacity: 0.92;
-  padding-right: 40px;
+  padding-right: 10px;
+  padding-left: 10px;
   margin:0;
   position:fixed;
   right:2;
+  margin-top:5px;
+  top: 0;
+  z-index:99;
 }
 
 nav li {
-  float: left;
   list-style-type: none;
-  padding-left: 10px;
-  padding-right: 10px;
-  vertical-align: middle;
-  padding-bottom: 15px;
+  float:left;
+  margin-left:10px;
+  margin-right:10px;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+  padding-top: 16px;
 }
 
 nav li a {
@@ -62,12 +76,23 @@ nav li a:focus {
 main
 {
   background-color: #ffffff;
-  position:absolute;
-  left:0;
-  margin-top:55px;
-  margin-left:5px;
+  /* left:0;
+  position:absolute; */
   width:500px;
-  height:520px;
-  padding-left:5px;
+  height:1000px;
   border: solid, 1px, black;
+}
+
+aside {
+  width: 600px;
+  height: 100px;
+  background-color: #aaa;
+  float: right;
+}
+
+#wrapper {
+  margin-top: 3.5rem;
+  margin-left: 0.5rem;
+  position: absolute;
+  display: flex;
 }
