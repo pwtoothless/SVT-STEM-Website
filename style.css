@@ -6,40 +6,41 @@ body {
 header
 {
   background-color:#ffffff;
-  height: 50px;
+  height: 8%;
   width: auto;
-  padding-left:5px;
-  position:absolute;
-  left:0;
-  top:0;
-  margin-left:11px;
-  margin-top:5px;
+  padding-left:1%;
+  margin-left:1%;
+  margin-top:1%;
+  background-color: blue;
+  display:flex;
 }
 
 header > h1
 {
   margin:0;
   background-color:#ffffff;
+  font-size:2rem;
 }
 
 header img 
 {
-  width: 20px;
-  height:20px;
+  width:3%;
+  height:95%;
+  margin-top:0.2%;
 }
 
 nav {
   background-color: #333;
   overflow: hidden;
-  height:50px;
+  height:8.5%;
   border-radius: 50px;
   opacity: 0.92;
-  padding-right: 10px;
-  padding-left: 10px;
+  padding-right: 1%;
+  padding-left: 1%;
   margin:0;
   position:fixed;
   right:2;
-  margin-top:5px;
+  margin-top:0.5%;
   top: 0;
   z-index:99;
 }
@@ -47,8 +48,8 @@ nav {
 nav li {
   list-style-type: none;
   float:left;
-  margin-left:10px;
-  margin-right:10px;
+  margin-left:0.5%;
+  margin-right:0.5%;
 }
 
 nav ul {
@@ -90,7 +91,7 @@ aside {
 }
 
 #wrapper {
-  margin-top: 4rem;
+  margin-top: 10;
   margin-left: 0.5rem;
   display: flex;
   max-width:1250px;
