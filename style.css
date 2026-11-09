@@ -12,7 +12,7 @@ header
   position:absolute;
   left:0;
   top:0;
-  margin-left:5px;
+  margin-left:11px;
   margin-top:5px;
 }
 
@@ -76,23 +76,22 @@ nav li a:focus {
 main
 {
   background-color: #ffffff;
-  /* left:0;
-  position:absolute; */
-  width:500px;
-  height:1000px;
+  width:600px;
+  height:800px;
   border: solid, 1px, black;
 }
 
 aside {
-  width: 600px;
-  height: 100px;
-  background-color: #aaa;
-  float: right;
+  margin-left:10px;
+  width:621px;
+  height: 800px;
+  float:right;
+  border: solid, 1px, black;
 }
 
 #wrapper {
-  margin-top: 3.5rem;
+  margin-top: 4rem;
   margin-left: 0.5rem;
-  position: absolute;
   display: flex;
+  max-width:1250px;
 }
