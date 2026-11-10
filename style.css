@@ -6,16 +6,14 @@ body {
 header
 {
   background-color:#ffffff;
-  height: 8%;
+  height: 3rem;
   width: auto;
-  padding-left:1%;
-  margin-left:1%;
+  margin-left:0.5%;
   margin-top:1%;
-  background-color: blue;
   display:flex;
 }
 
-header > h1
+header h1
 {
   margin:0;
   background-color:#ffffff;
@@ -24,19 +22,20 @@ header > h1
 
 header img 
 {
-  width:3%;
   height:95%;
   margin-top:0.2%;
+  border:solid, 1px, black;
+  margin-right:0.5%;
 }
 
 nav {
   background-color: #333;
   overflow: hidden;
-  height:8.5%;
+  height:3.2rem;
+  width:22rem;
   border-radius: 50px;
   opacity: 0.92;
-  padding-right: 1%;
-  padding-left: 1%;
+  padding-left:1%;
   margin:0;
   position:fixed;
   right:2;
@@ -48,14 +47,14 @@ nav {
 nav li {
   list-style-type: none;
   float:left;
-  margin-left:0.5%;
-  margin-right:0.5%;
+  margin-left:2%;
+  margin-right:2%;
 }
 
 nav ul {
   padding: 0;
   margin: 0;
-  padding-top: 16px;
+  padding-top: 4.6%;
 }
 
 nav li a {
@@ -77,22 +76,23 @@ nav li a:focus {
 main
 {
   background-color: #ffffff;
-  width:600px;
-  height:800px;
+  width:55%;
+  height:50rem;
   border: solid, 1px, black;
 }
 
 aside {
   margin-left:10px;
-  width:621px;
-  height: 800px;
+  width:45%;
+  height: 50rem;
   float:right;
   border: solid, 1px, black;
 }
 
 #wrapper {
   margin-top: 10;
-  margin-left: 0.5rem;
+  margin-left: 0.5%;
   display: flex;
-  max-width:1250px;
+  max-width:100%;
+  max-height:150%;
 }
