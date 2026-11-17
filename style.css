@@ -1,45 +1,46 @@
 body {
-  background-color: #ffffff;
+  background-color: #309;
   overflow-x: hidden;
 }
 
 header
 {
-  background-color:#ffffff;
+  background-color:#39c;
   height: 3rem;
   width: auto;
   margin-left:0.5%;
-  margin-top:1%;
   display:flex;
+  border-radius:5px;
 }
 
 header h1
 {
   margin:0;
-  background-color:#ffffff;
   font-size:2rem;
-  margin-top:0.3%;
+  margin-top:0.5%;
 }
 
 header img 
 {
-  height:95%;
+  height:90%;
   margin-top:0.2%;
-  border:solid, 1px, black;
+  margin-left:0.2%;
   margin-right:0.5%;
+  background-color:#fff;
+  border-radius:5px;
 }
 
 nav {
-  background-color: #333;
+  background-color: #222;
   overflow: hidden;
-  height:3.2rem;
-  width:22rem;
+  height:3rem;
+  width:20rem;
   border-radius: 50px;
-  opacity: 0.92;
+  opacity: 0.89;
   padding-left:1%;
   margin:0;
   position:fixed;
-  right:2;
+  right:1%;
   margin-top:0.5%;
   top: 0;
   z-index:99;
@@ -48,8 +49,8 @@ nav {
 nav li {
   list-style-type: none;
   float:left;
-  margin-left:2%;
-  margin-right:2%;
+  margin-left:3%;
+  margin-right:3%;
 }
 
 nav ul {
@@ -60,10 +61,10 @@ nav ul {
 
 nav li a {
   display: block;
-  color: white;
+  color: #fff;
   text-align: center;
   text-decoration: none;
-  outline: 3px solid #007bff;
+  outline: 3px solid #39c;
   outline-offset: 3px;
   border-radius: 8px;
 }
@@ -76,24 +77,31 @@ nav li a:focus {
 
 main
 {
-  background-color: #ffffff;
-  width:55%;
-  height:50rem;
-  border: solid, 1px, black;
+  background-color: #39c;
+  background-color: #fff;
+  border: solid, 15px, #39c;
+  width: 50%;
+  height: 50rem;
+  border-radius: 5px;
+  padding: 0.5rem;
 }
 
 aside {
-  margin-left:10px;
-  width:45%;
+  background-color:#39c;
+  background-color: #fff;
+  border: solid, 15px, #39c;
+  margin-left: 10px;
+  width: 45%;
   height: 50rem;
-  float:right;
-  border: solid, 1px, black;
+  float: right;
+  border-radius: 5px;
+  padding: 0.5rem;
 }
 
 #wrapper {
-  margin-top: 10;
+  margin-top: 1.5%;
   margin-left: 0.5%;
   display: flex;
-  max-width:100%;
-  max-height:150%;
+  max-width: 100%;
+  max-height: 150%;
 }
