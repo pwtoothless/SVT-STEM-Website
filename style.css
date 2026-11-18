@@ -102,6 +102,52 @@ aside {
   margin-top: 1.5%;
   margin-left: 0.5%;
   display: flex;
+  min-height: fit-content;
   max-width: 100%;
   max-height: 150%;
+}
+
+.hamburger {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  flex-direction: column;
+  gap: 5px;
+}
+
+/* Mobile Specific Styles */
+
+@media (max-width: 768px) {
+  .hamburger {
+    display: flex; /* Show hamburger on mobile */
+  }
+
+  .nav-links {
+    display: none; /* Hide links by default on mobile */
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #222;
+    padding: 1rem 0;
+    text-align: center;
+  }
+
+  /* Show links when toggled open */
+  .nav-links.active {
+    display: flex;
+  }
+
+  /* Optional: Animate hamburger into an 'X' */
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
 }
